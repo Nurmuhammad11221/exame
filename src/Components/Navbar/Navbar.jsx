@@ -12,8 +12,6 @@ const Navbar = () => {
         <Link to="/">Company</Link>
         <Link to="/Career">Career</Link>
         <Link to="/blog">Blog</Link>
-        <Link to="/contact">Contact us</Link>
-        <Link to="/PrivacyPolicy">Privacy Policy</Link>
       </ul>
 
       <button className="text-[#FFD3AF] flex items-center gap-2 hover:brightness-110">

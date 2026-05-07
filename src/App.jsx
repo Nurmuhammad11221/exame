@@ -5,6 +5,7 @@ import Blog from './Pages/Blog';
 import TeamTemplate from './Pages/TeamTemplete'; 
 import CarerrInner from './Pages/CareerInner';
 import PrivacyPolicy from './Pages/PrivacyPolicy';
+import BlogInner from './Pages/BlogInner'; // Fayl yo'li to'g'riligiga ishonch hosil qiling
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
           <Route path="/team/:id" element={<TeamTemplate />} />
           <Route path="/careers/:id" element={<CarerrInner />} />
+          <Route path="/BlogInner" element={<BlogInner />} /> 
       </Routes>
     </BrowserRouter>
   );

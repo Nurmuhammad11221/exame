@@ -12,10 +12,7 @@ const Card = () => {
               {job.location} · {job.type} <br />
               {job.salary} · No equity
             </p>
-            <Link 
-              to={`/careers/${job.id}`} 
-              className="text-[#666dff] font-bold flex items-center gap-2 group"
-            >
+            <Link to={`/careers/${job.id}`}     className="text-[#666dff] font-bold flex items-center gap-2 group">
               Apply Now <span className="group-hover:translate-x-2 transition-transform">→</span>
             </Link>
           </div>

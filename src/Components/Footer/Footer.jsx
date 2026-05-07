@@ -12,7 +12,7 @@ const Footer = () => {
                     <div className="lg:col-span-5 flex flex-col justify-between">
                         <div>
                             <div className="flex items-center gap-2 mb-10">
-                               <img src="./Shapes3.png" alt="" />
+                                <img src="./Shapes3.png" alt="" />
                             </div>
                             <h2 className="text-5xl font-bold text-[#1d2130] leading-tight mb-12">
                                 Let's make <br /> something special
@@ -66,13 +66,13 @@ const Footer = () => {
                             <li className="font-bold text-[#1d2130]">Resources</li>
                             <li className="text-[#1d2130] opacity-80">About Us</li>
                             <li className="text-[#1d2130] opacity-80">Testimonial</li>
-                            <li className="text-[#1d2130] opacity-80">Privacy Policy</li>
+                            <Link to="/PrivacyPolicy">Privacy Policy</Link>   <br/> <br />
                             <li className="text-[#1d2130] opacity-80">Terms of use</li>
                         </ul>
                     </div>
                 </div>
 
-                
+
             </div>
 
             <div className="w-full bg-[#ffe6d2] py-8">
@@ -82,10 +82,10 @@ const Footer = () => {
                         <p className="text-sm text-[#1d2130]">©2021 Finsweet</p>
                     </div>
                     <div className="flex gap-8 text-xl text-[#1d2130]">
-                        <a href="https://facebook.com/"><img src='/facebook.png'/></a>
+                        <a href="https://facebook.com/"><img src='/facebook.png' /></a>
                         <a href="https://x.com/"><img src='/twitter1.png' /></a>
                         <a href="https://instagram.com/"><img src='/instagram1.png' /></a>
-                        <a href="https://uz.linkedin.com/"><img src='/Linkni1.png'/></a>
+                        <a href="https://uz.linkedin.com/"><img src='/Linkni1.png' /></a>
                     </div>
                 </div>
             </div>
