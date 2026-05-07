@@ -5,7 +5,7 @@ import Blog from './Pages/Blog';
 import TeamTemplate from './Pages/TeamTemplete'; 
 import CarerrInner from './Pages/CareerInner';
 import PrivacyPolicy from './Pages/PrivacyPolicy';
-import BlogInner from './Pages/BlogInner'; // Fayl yo'li to'g'riligiga ishonch hosil qiling
+import BlogInner from './Pages/BlogInner'; 
 
 function App() {
   return (

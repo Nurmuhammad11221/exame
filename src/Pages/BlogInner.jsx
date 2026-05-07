@@ -1,11 +1,18 @@
 import React from 'react';
 import Navbar from '../Components/Navbar/Navbar';
+import InnerBlogHero from '../Components/Blog/InnerBlogHero';
+import BlogLoading from '../Components/Blog/BlogLoading';
+import TopFooter from '../Components/TopFooter/TopFooter';
+import Footer from '../Components/Footer/Footer';
 
 const BlogInner = () => {
     return (
         <div>
             <Navbar />
-            <h1>Blog Inner Page</h1>
+            <InnerBlogHero />
+            <BlogLoading />,
+            <TopFooter />
+            <Footer />
         </div>
     );
 }
