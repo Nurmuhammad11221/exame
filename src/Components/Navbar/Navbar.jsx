@@ -8,7 +8,9 @@ const Navbar = () => {
       </div>
 
       <ul className="flex space-x-8 text-sm font-medium text-gray-400">
-        <Link to="/">Company</Link>
+        
+        <Link to="/">Home</Link>
+        <Link to="/Company">Company</Link>
         <Link to="/Career">Career</Link>
         <Link to="/blog">Blog</Link>
       </ul>

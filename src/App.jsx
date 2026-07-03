@@ -6,12 +6,14 @@ import TeamTemplate from './Pages/TeamTemplete';
 import CarerrInner from './Pages/CareerInner';
 import PrivacyPolicy from './Pages/PrivacyPolicy';
 import BlogInner from './Pages/BlogInner'; 
+import Home from './Pages/Home'; 
 
 function App() {
   return (
     <BrowserRouter>
       <Routes> 
-          <Route path="/" element={<CompanyPage />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/Company" element={<CompanyPage />} />
           <Route path="/career" element={<Career />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
